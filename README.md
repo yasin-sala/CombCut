@@ -1,6 +1,6 @@
 # CombCut
 Official implementation of ["Exact Combinatorial Multi-Class Graph Cuts for Semi-Supervised Learning"](https://sharif.edu/~aamini/Papers/ExactGraphCut.pdf),
-[Mohammad Mahdi Omati](), Yasin Salajeghe, [Mahshad Moradi](), [Arash Amini](),
+[Mohammad Mahdi Omati](), Yasin Salajeghe, [Mahshad Moradi](), [Arash Amini](https://sharif.ir/~aamini/home.html),
 [AAAI-26](https://aaai.org/conference/aaai/aaai-26/).
 
 # Overview
@@ -18,6 +18,7 @@ Accepted at AAAI-26.
 git clone https://github.com/yourusername/exact-combinatorial-multiclass-graph-cuts.git
 cd exact-combinatorial-multiclass-graph-cuts
 pip install -r requirements.txt
+```
 
 # Reproducibility
 ``` python src/main.py --dataset cora --lambda 0.1 ```
