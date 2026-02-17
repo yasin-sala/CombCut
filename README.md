@@ -55,7 +55,15 @@ python -c "import graphlearning; print('OK')"
 
 ### 2. cumbcut files
 ```bash
-sdf ```
+git clone https://github.com/yasin-sala/CombCut.git
+cp -r CombCut/CombCut_graphlearning/* graphlearning/
+cp -r CombCut/Results .
+cp -r CombCut/RunTime .
+```
+
+### 3. run the code
+In order to get the results of the paper and trying the **CombCut** algorithm
+run any of the [.py](Results/) or to get the run time of the algorithm see [folder](RunTime/) 
 
 <!-- # Citation
 @inproceedings{yourname2026exact,
