@@ -1,13 +1,9 @@
-# CombCut
-Official implementation of ["Exact Combinatorial Multi-Class Graph Cuts for Semi-Supervised Learning"](https://sharif.edu/~aamini/Papers/ExactGraphCut.pdf),
-[Mohammad Mahdi Omati](), Yasin Salajeghe, [Mahshad Moradi](), [Arash Amini](https://sharif.ir/~aamini/home.html),
-[AAAI-26](https://aaai.org/conference/aaai/aaai-26/).
+# Exact Combinatorial Multi-Class Graph Cuts for Semi-Supervised Learning (AAAI 2026)
 
-# Overview
-This repository contains the official implementation of the paper:
+[Paper](https://sharif.edu/~aamini/Papers/ExactGraphCut.pdf) | [Project page](https://vibidsampler.github.io/)
 
-Exact Combinatorial Multi-Class Graph Cuts for Semi-Supervised Learning
-Accepted at AAAI-26.
+This repository is the official implementation of "Exact Combinatorial Multi-Class Graph Cuts for Semi-Supervised Learning".
+
 
 # Abstract
 [Copy your abstract here]
@@ -23,10 +19,10 @@ pip install -r requirements.txt
 # Reproducibility
 ``` python src/main.py --dataset cora --lambda 0.1 ```
 
-# Citation
+<!-- # Citation
 @inproceedings{yourname2026exact,
   title={Exact Combinatorial Multi-Class Graph Cuts for Semi-Supervised Learning},
   author={Your Name},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
   year={2026}
-}
+} -->
