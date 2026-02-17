@@ -63,12 +63,12 @@ cp -r CombCut/RunTime .
 
 ### 3. run the code
 In order to get the results of the paper and trying the **CombCut** algorithm
-run any of the [.py](Results/) or to get the run time of the algorithm see [folder](RunTime/) 
+run any of the [.py](Results/) or to get the run time of the algorithm see [RunTime Folder](RunTime/) 
 
-<!-- # Citation
+ ## Citation
 @inproceedings{yourname2026exact,
   title={Exact Combinatorial Multi-Class Graph Cuts for Semi-Supervised Learning},
   author={Your Name},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
   year={2026}
-} -->
+} 
