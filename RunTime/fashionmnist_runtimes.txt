@@ -1,0 +1,80 @@
+============================================================
+Starting Fashion-MNIST Runtime Benchmark
+Date: 2025-10-08 03:38:49
+Results will be saved to: fashionmnist_runtimes.txt
+============================================================
+Dataset: Fashion-MNIST
+Rates to test: [1, 2, 3, 4, 5]
+Runs per rate: 5
+============================================================
+
+Loading Fashion-MNIST labels...
+Labels loaded.
+
+Building KNN graph (metric='vae')... This may take a moment.
+Graph 'W' and class priors are built.
+
+--- Starting Test for Rate = 1 points per class ---
+
+--- Results for Rate = 1 (Mean of 5 runs) ---
+Model: Laplace Learning | Mean Runtime: 0.1357 seconds
+Model: Poisson Learning | Mean Runtime: 2.1620 seconds
+Model: p-Laplace (p=3.00) | Mean Runtime: 0.0516 seconds
+Model: AMLE         | Mean Runtime: 0.0524 seconds
+Model: Volume MBO (T=0.10, V=0.50) | Mean Runtime: 5.5919 seconds
+Model: CutSSL       | Mean Runtime: 9.1165 seconds
+Model: StiefelSSL   | Mean Runtime: 25.8213 seconds
+Model: CombCutSSL (Exact Method) | Mean Runtime: 10.9688 seconds
+
+--- Starting Test for Rate = 2 points per class ---
+
+--- Results for Rate = 2 (Mean of 5 runs) ---
+Model: Laplace Learning | Mean Runtime: 0.1361 seconds
+Model: Poisson Learning | Mean Runtime: 2.3184 seconds
+Model: p-Laplace (p=3.00) | Mean Runtime: 0.0518 seconds
+Model: AMLE         | Mean Runtime: 0.0529 seconds
+Model: Volume MBO (T=0.10, V=0.50) | Mean Runtime: 5.5387 seconds
+Model: CutSSL       | Mean Runtime: 10.0415 seconds
+Model: StiefelSSL   | Mean Runtime: 25.8565 seconds
+Model: CombCutSSL (Exact Method) | Mean Runtime: 13.3295 seconds
+
+--- Starting Test for Rate = 3 points per class ---
+
+--- Results for Rate = 3 (Mean of 5 runs) ---
+Model: Laplace Learning | Mean Runtime: 0.1322 seconds
+Model: Poisson Learning | Mean Runtime: 2.3209 seconds
+Model: p-Laplace (p=3.00) | Mean Runtime: 0.0508 seconds
+Model: AMLE         | Mean Runtime: 0.0501 seconds
+Model: Volume MBO (T=0.10, V=0.50) | Mean Runtime: 5.5245 seconds
+Model: CutSSL       | Mean Runtime: 9.4140 seconds
+Model: StiefelSSL   | Mean Runtime: 23.8495 seconds
+Model: CombCutSSL (Exact Method) | Mean Runtime: 12.2202 seconds
+
+--- Starting Test for Rate = 4 points per class ---
+
+--- Results for Rate = 4 (Mean of 5 runs) ---
+Model: Laplace Learning | Mean Runtime: 0.1435 seconds
+Model: Poisson Learning | Mean Runtime: 2.3906 seconds
+Model: p-Laplace (p=3.00) | Mean Runtime: 0.0541 seconds
+Model: AMLE         | Mean Runtime: 0.0569 seconds
+Model: Volume MBO (T=0.10, V=0.50) | Mean Runtime: 5.6145 seconds
+Model: CutSSL       | Mean Runtime: 10.0277 seconds
+Model: StiefelSSL   | Mean Runtime: 24.5417 seconds
+Model: CombCutSSL (Exact Method) | Mean Runtime: 14.4168 seconds
+
+--- Starting Test for Rate = 5 points per class ---
+
+--- Results for Rate = 5 (Mean of 5 runs) ---
+Model: Laplace Learning | Mean Runtime: 0.1359 seconds
+Model: Poisson Learning | Mean Runtime: 2.4294 seconds
+Model: p-Laplace (p=3.00) | Mean Runtime: 0.0511 seconds
+Model: AMLE         | Mean Runtime: 0.0516 seconds
+Model: Volume MBO (T=0.10, V=0.50) | Mean Runtime: 5.5298 seconds
+Model: CutSSL       | Mean Runtime: 11.4140 seconds
+Model: StiefelSSL   | Mean Runtime: 26.3478 seconds
+Model: CombCutSSL (Exact Method) | Mean Runtime: 15.4296 seconds
+
+============================================================
+All benchmark runs completed in 1420.08 seconds.
+Results have been saved to 'fashionmnist_runtimes.txt'.
+============================================================

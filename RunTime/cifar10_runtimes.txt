@@ -1,0 +1,57 @@
+============================================================
+Starting CIFAR-10 Runtime Benchmark
+Date: 2025-11-13 22:12:10
+Results will be saved to: cifar10_runtimes.txt
+============================================================
+Dataset: CIFAR-10
+Rates to test: [1, 1, 1]
+Runs per rate: 5
+============================================================
+
+Loading CIFAR-10 labels...
+Labels loaded.
+
+Building weight matrix (metric='simclr')... This may take a while.
+Weight matrix built.
+Class priors built.
+
+--- Starting Test for Rate = 1 points per class ---
+
+--- Results for Rate = 1 (Mean of 5 runs) ---
+Model: Laplace Learning | Mean Runtime: 0.1110 seconds
+Model: Poisson Learning | Mean Runtime: 1.3856 seconds
+Model: p-Laplace (p=3.00) | Mean Runtime: 0.0406 seconds
+Model: AMLE         | Mean Runtime: 0.0397 seconds
+Model: Volume MBO (T=0.10, V=0.50) | Mean Runtime: 4.5240 seconds
+Model: CutSSL       | Mean Runtime: 71.8964 seconds
+Model: StiefelSSL   | Mean Runtime: 12.1242 seconds
+Model: CombCutSSL (Exact Method) | Mean Runtime: 139.7946 seconds
+
+--- Starting Test for Rate = 1 points per class ---
+
+--- Results for Rate = 1 (Mean of 5 runs) ---
+Model: Laplace Learning | Mean Runtime: 0.1056 seconds
+Model: Poisson Learning | Mean Runtime: 1.3564 seconds
+Model: p-Laplace (p=3.00) | Mean Runtime: 0.0372 seconds
+Model: AMLE         | Mean Runtime: 0.0374 seconds
+Model: Volume MBO (T=0.10, V=0.50) | Mean Runtime: 4.4876 seconds
+Model: CutSSL       | Mean Runtime: 54.5612 seconds
+Model: StiefelSSL   | Mean Runtime: 12.3052 seconds
+Model: CombCutSSL (Exact Method) | Mean Runtime: 105.4649 seconds
+
+--- Starting Test for Rate = 1 points per class ---
+
+--- Results for Rate = 1 (Mean of 5 runs) ---
+Model: Laplace Learning | Mean Runtime: 0.1026 seconds
+Model: Poisson Learning | Mean Runtime: 1.3671 seconds
+Model: p-Laplace (p=3.00) | Mean Runtime: 0.0375 seconds
+Model: AMLE         | Mean Runtime: 0.0371 seconds
+Model: Volume MBO (T=0.10, V=0.50) | Mean Runtime: 4.3084 seconds
+Model: CutSSL       | Mean Runtime: 38.7219 seconds
+Model: StiefelSSL   | Mean Runtime: 12.2107 seconds
+Model: CombCutSSL (Exact Method) | Mean Runtime: 73.9166 seconds
+
+============================================================
+All benchmark runs completed in 2696.94 seconds.
+Results have been saved to 'cifar10_runtimes.txt'.
+============================================================
